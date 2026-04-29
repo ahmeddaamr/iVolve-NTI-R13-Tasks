@@ -2,7 +2,8 @@
 DevOps and Cloud tasks from the iVolve Internship (NTI – Cloud DevOps Accelerator Program).
 
 Modules:
-`1.Build Tools Overview (Maven & Gradle)
+```text
+1.Build Tools Overview (Maven & Gradle)
 2.Containerization with Docker
 3.Kubernetes for container orchestration
 4.CI/CD Pipelines with Jenkins
@@ -46,4 +47,4 @@ Overview:
   Lab 27: Structured Configuration Management with Ansible Roles
   Lab 28: Securing Sensitive Data with Ansible Vault
   Lab 29: Automated Host Discovery with Ansible Dynamic Inventory
-`
+```
