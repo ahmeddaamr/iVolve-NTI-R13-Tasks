@@ -68,3 +68,12 @@ docker run -d --name nginx_app -p 8080:80 \
    touch /var/log/nginx/access.log /var/log/nginx/error.log && \
    nginx -g 'daemon off;'"
 ```
+
+
+
+Stop & Remove Container ,Then Remove Volume
+```bash
+docker container stop nginx_app
+docker container rm nginx_app
+docker volume rm nginx_logs
+```
